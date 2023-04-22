@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    color: darkcyan;
+    text-align: center;
+}
+
+label {
+    display: flex;
+    text-align: center;
+    text-align: justify;
+    width: 60px;
+}
+
+.rgb-box-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    width: 400px;
+    height: 250px;
+    border: 1px black solid;
+    box-shadow: 2px 2px 15px black;
+}
+
+.sliders-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+    width: 50%;
+}
